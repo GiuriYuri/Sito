@@ -1,0 +1,132 @@
+<!DOCTYPE html>  
+<html lang="it">  
+<head>  
+  <meta charset="UTF-8">  
+  <title>GrafixStudio S.r.l - Home</title>  
+  <style>  
+    body {   
+      font-family: Arial, sans-serif;   
+      margin: 0;   
+      padding: 0;   
+      color: #333;  
+    }  
+    header, footer {   
+      background-color: #f4f4f4;   
+      padding: 10px 20px;   
+      text-align: center;   
+    }  
+    nav a {   
+      margin: 0 15px;   
+      text-decoration: none;   
+      color: #333;   
+      font-weight: bold;  
+    }  
+    .hero {  
+      position: relative;  
+      height: 500px;  
+      overflow: hidden;  
+      display: flex;  
+      align-items: center;  
+      justify-content: center;  
+    }  
+    .hero img {  
+      width: 100%;  
+      height: 100%;  
+      object-fit: cover;  
+      position: absolute;  
+      top: 0;  
+      left: 0;  
+      z-index: -1;  
+      filter: brightness(0.7);  
+    }  
+    .hero-content {  
+      text-align: center;  
+      color: white;  
+      padding: 20px;  
+      max-width: 800px;  
+      z-index: 1;  
+    }  
+    .slogan {  
+      font-size: 2.5em;  
+      margin-bottom: 20px;  
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.5);  
+    }  
+    .hero-text {  
+      font-size: 1.2em;  
+      margin-bottom: 30px;  
+      text-shadow: 1px 1px 2px rgba(0,0,0,0.5);  
+    }  
+    .quick-buttons {  
+      display: flex;  
+      justify-content: center;  
+      flex-wrap: wrap;  
+      gap: 20px;  
+      margin: 40px 0;  
+      padding: 0 20px;  
+    }  
+    .button {  
+      display: inline-block;  
+      padding: 15px 30px;  
+      background-color: #766CDB;  
+      color: white;  
+      text-decoration: none;  
+      border-radius: 5px;  
+      font-weight: bold;  
+      transition: background-color 0.3s;  
+    }  
+    .button:hover {  
+      background-color: #5a51c7;  
+    }  
+    .container {  
+      max-width: 1200px;  
+      margin: 0 auto;  
+      padding: 40px 20px;  
+    }
+    .active {
+      color: #5a51c7;
+    }
+    a {
+      transition: all ease 0.2s;
+    }
+    a:hover {
+      color: #908ad2;
+    }
+  </style>  
+</head>  
+<body>  
+  <header>  
+    <h1>GrafixStudio S.r.l</h1>  
+    <nav>  
+      <a class="active" href="index.html">Home</a>  
+      <a href="pages/chi-siamo.html">Chi siamo</a>  
+      <a href="pages/contatti.html">Contatti</a>  
+    </nav>  
+  </header>  
+    
+  <div class="hero">  
+    <img src="images/office.png" alt="GrafixStudio - Design creativo">  
+    <div class="hero-content">  
+      <div class="slogan">  
+        "La creatività prende forma!"  
+      </div>  
+      <p class="hero-text">  
+        GrafixStudio trasforma la tua visione in realtà attraverso soluzioni grafiche innovative e di alta qualità.  
+      </p>  
+      <a href="pages/chi-siamo.html" class="button">Scopri di più</a>  
+    </div>  
+  </div>  
+    
+  <div class="container">  
+    <div class="quick-buttons">  
+      <a href="pages/chi-siamo.html#graphic-design" class="button">Design Grafico</a>  
+      <a href="pages/chi-siamo.html#branding" class="button">Branding</a>  
+      <a href="pages/chi-siamo.html#web-design" class="button">Web Design</a>  
+      <a href="pages/contatti.html" class="button">Contattaci</a>  
+    </div>  
+  </div>  
+    
+  <footer>  
+    <p>&copy; 2025 GrafixStudio S.r.l</p>  
+  </footer>  
+</body>  
+</html>  

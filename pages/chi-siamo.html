@@ -1,0 +1,209 @@
+<!DOCTYPE html>  
+<html lang="it">  
+<head>  
+  <meta charset="UTF-8">  
+  <title>GrafixStudio S.r.l - Chi Siamo</title>  
+  <style>  
+    body {   
+      font-family: Arial, sans-serif;   
+      margin: 0;   
+      padding: 0;   
+      color: #333;  
+    }  
+    header, footer {   
+      background-color: #f4f4f4;   
+      padding: 10px 20px;   
+      text-align: center;   
+    }  
+    nav a {   
+      margin: 0 15px;   
+      text-decoration: none;   
+      color: #333;   
+      font-weight: bold;  
+    }  
+    .hero {  
+      position: relative;  
+      height: 300px;  
+      overflow: hidden;  
+      display: flex;  
+      align-items: center;  
+      justify-content: center;  
+    }  
+    .hero img {  
+      width: 100%;  
+      height: 100%;  
+      object-fit: cover;  
+      position: absolute;  
+      top: 0;  
+      left: 0;  
+      z-index: -1;  
+      filter: brightness(0.7);  
+    }  
+    .hero-content {  
+      text-align: center;  
+      color: white;  
+      padding: 20px;  
+      max-width: 800px;  
+      z-index: 1;  
+    }  
+    .container {  
+      max-width: 1200px;  
+      margin: 0 auto;  
+      padding: 40px 20px;  
+      text-align: center;  
+    }  
+    .section {  
+      margin-bottom: 60px;  
+      padding: 20px;  
+      background-color: #f9f9f9;  
+      border-radius: 8px;  
+      text-align: left;  
+    }  
+    .section h2 {  
+      color: #766CDB;  
+      margin-bottom: 20px;  
+    }  
+    .section-content {  
+      display: flex;  
+      flex-wrap: wrap;  
+      align-items: center;  
+      gap: 30px;  
+    }  
+    .section-text {  
+      flex: 1;  
+      min-width: 300px;  
+    }  
+    .section-image {  
+      flex: 1;  
+      min-width: 300px;  
+    }  
+    .section-image img {  
+      max-width: 100%;  
+      height: auto;  
+      border-radius: 8px;  
+    }  
+    .button {  
+      display: inline-block;  
+      padding: 10px 20px;  
+      background-color: #766CDB;  
+      color: white;  
+      text-decoration: none;  
+      border-radius: 5px;  
+      margin-top: 15px;  
+      transition: background-color 0.3s;  
+    }  
+    .button:hover {  
+      background-color: #5a51c7;  
+    }  
+    .active {
+      color: #5a51c7;
+    }
+    a {
+      transition: all ease 0.2s;
+    }
+    a:hover {
+      color: #908ad2;
+    }   
+  </style>  
+</head>  
+<body>  
+  <header>  
+    <h1>GrafixStudio S.r.l</h1>  
+    <nav>  
+      <a href="../index.html">Home</a>  
+      <a class="active" href="chi-siamo.html">Chi siamo</a>  
+      <a href="contatti.html">Contatti</a>  
+    </nav>  
+  </header>  
+    
+  <div class="hero">  
+    <img src="../images/chi-siamo.png" alt="Il nostro team al lavoro">  
+    <div class="hero-content">  
+      <h1>Chi Siamo</h1>  
+    </div>  
+  </div>  
+    
+  <div class="container">  
+    <div class="section">  
+      <h2>La Nostra Storia</h2>  
+      <div class="section-content">  
+        <div class="section-text">  
+          <p>GrafixStudio S.r.l è un'azienda specializzata nel design grafico e nella comunicazione visiva. Fondata nel 2015 da un gruppo di professionisti appassionati, la nostra missione è trasformare le idee in progetti visivi di impatto.</p>  
+          <p>Negli anni abbiamo costruito un team di talenti creativi che combinano competenze tecniche e visione artistica per offrire soluzioni personalizzate ad aziende di ogni dimensione.</p>  
+          <p>Crediamo che ogni progetto sia unico e meriti un'attenzione particolare. Per questo motivo, lavoriamo a stretto contatto con i nostri clienti per comprendere le loro esigenze e tradurle in soluzioni grafiche efficaci.</p>  
+        </div>  
+        <div class="section-image">  
+          <img src="../images/team.jpg" alt="Il nostro team">  
+        </div>  
+      </div>  
+    </div>  
+      
+    <div class="section" id="graphic-design">  
+      <h2>Design Grafico</h2>  
+      <div class="section-content">  
+        <div class="section-image">  
+          <img src="../images/graphic-design.jpeg" alt="Design Grafico">  
+        </div>  
+        <div class="section-text">  
+          <p>Il nostro servizio di design grafico comprende la creazione di materiali visivi per la comunicazione aziendale, pubblicitaria e promozionale. Realizziamo:</p>  
+          <ul>  
+            <li>Brochure e cataloghi</li>  
+            <li>Poster e manifesti</li>  
+            <li>Packaging di prodotti</li>  
+            <li>Illustrazioni personalizzate</li>  
+            <li>Infografiche</li>  
+          </ul>  
+          <p>Ogni progetto viene sviluppato con attenzione ai dettagli e alle tendenze contemporanee del design.</p>  
+          <a href="contatti.html" class="button">Richiedi informazioni</a>  
+        </div>  
+      </div>  
+    </div>  
+      
+    <div class="section" id="branding">  
+      <h2>Branding</h2>  
+      <div class="section-content">  
+        <div class="section-text">  
+          <p>Il branding è fondamentale per costruire l'identità di un'azienda. Il nostro servizio include:</p>  
+          <ul>  
+            <li>Creazione di loghi e identità visiva</li>  
+            <li>Sviluppo di linee guida del brand</li>  
+            <li>Restyling di marchi esistenti</li>  
+            <li>Strategie di posizionamento</li>  
+            <li>Materiali coordinati per la comunicazione</li>  
+          </ul>  
+          <p>Aiutiamo le aziende a distinguersi dalla concorrenza attraverso un'immagine coerente e memorabile.</p>  
+          <a href="contatti.html" class="button">Richiedi informazioni</a>  
+        </div>  
+        <div class="section-image">  
+          <img src="../images/branding.jpg" alt="Branding">  
+        </div>  
+      </div>  
+    </div>  
+      
+    <div class="section" id="web-design">  
+      <h2>Web Design</h2>  
+      <div class="section-content">  
+        <div class="section-image">  
+          <img src="../images/web-design.png" alt="Web Design">  
+        </div>  
+        <div class="section-text">  
+          <p>Il nostro servizio di web design si concentra sulla creazione di siti web esteticamente piacevoli e funzionali. Offriamo:</p>  
+          <ul>  
+            <li>Progettazione di interfacce utente</li>  
+            <li>Sviluppo di siti web responsive</li>  
+            <li>Ottimizzazione dell'esperienza utente</li>  
+            <li>Integrazione con i social media</li>  
+            <li>Manutenzione e aggiornamento</li>  
+          </ul>  
+          <p>Creiamo siti web che non solo catturano l'attenzione, ma convertono i visitatori in clienti.</p>  
+          <a href="contatti.html" class="button">Richiedi informazioni</a>  
+        </div>  
+      </div>  
+    </div>  
+  </div>  
+    
+  <footer>  
+    <p>&copy; 2025 GrafixStudio S.r.l</p>  
+  </footer>  
+</body>  
+</html>  
